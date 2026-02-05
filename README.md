@@ -167,8 +167,8 @@ Open the `.env` file and add your credentials. It should look like this:
 # .env file
 
 # Nebius AI API Key (for LLM access)
-NEBIUS_API_KEY="your_nebius_api_key_here"
-
+~~NEBIUS_API_KEY="your_nebius_api_key_here"~~
+OPENAI_API_KEY="your_nebius_api_key_here"
 # LangSmith API Key (for tracing and debugging)
 LANGCHAIN_API_KEY="your_langsmith_api_key_here"
 LANGCHAIN_TRACING_V2="true"
