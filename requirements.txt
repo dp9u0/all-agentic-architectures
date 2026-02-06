@@ -6,4 +6,5 @@ rich
 python-dotenv
 langchain-community
 langchain-tavily
-graphviz
+tavily-python
+pygraphviz
