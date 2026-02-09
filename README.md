@@ -115,7 +115,7 @@ This project leverages a modern, powerful stack for building sophisticated AI ap
 | **Python 3.10+** | The core programming language for the entire project. |
 | **LangChain** | Provides the foundational building blocks for interacting with LLMs and tools. |
 | **LangGraph** | The key orchestration framework for building complex, stateful, and cyclical agent workflows. |
-| **Nebius AI Models** | High-performance LLMs (e.g., `Mixtral-8x22B-Instruct-v0.1`) that power the agents' reasoning. |
+| **Anthropic Models** | High-performance LLMs (e.g., `Claude 3.5 Sonnet`) that power the agents' reasoning. |
 | **Jupyter Notebooks** | Used for interactive development, rich explanations, and clear, step-by-step demonstrations. |
 | **Pydantic** | Ensures robust, structured data modeling, which is critical for reliable communication with LLMs. |
 | **Tavily Search** | A powerful search API used as a tool for research-oriented agents. |
@@ -166,9 +166,11 @@ Open the `.env` file and add your credentials. It should look like this:
 ```python
 # .env file
 
-# Nebius AI API Key (for LLM access)
-~~NEBIUS_API_KEY="your_nebius_api_key_here"~~
-OPENAI_API_KEY="your_nebius_api_key_here"
+# Anthropic API Key (for LLM access)
+ANTHROPIC_API_KEY="your_anthropic_api_key_here"
+MODEL_NAME="claude-opus-4-5-20251101"
+BASE_URL="https://api.anthropic.com"
+
 # LangSmith API Key (for tracing and debugging)
 LANGCHAIN_API_KEY="your_langsmith_api_key_here"
 LANGCHAIN_TRACING_V2="true"

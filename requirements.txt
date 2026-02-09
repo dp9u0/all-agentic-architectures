@@ -1,10 +1,13 @@
 langchain
 langgraph
-langchain-nebius
-langchain-openai
-rich
-python-dotenv
+langchain-anthropic
 langchain-community
 langchain-tavily
+rich
+python-dotenv
 tavily-python
 pygraphviz
+neo4j
+faiss-cpu
+tiktoken
+sentence-transformers
